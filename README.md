@@ -1,1 +1,1 @@
-HangMan
+com.LickingHeights.HangMan
