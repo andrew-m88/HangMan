@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9d5fe04-635a-4ea0-a3c7-17a7f24180af" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HangMan/com/LickingHeights/HangMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HangMan/com/LickingHeights/HangMan.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/LickingHeights/HangMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LickingHeights/HangMan.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,9 +18,11 @@
       <file leaf-file-name="HangMan.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/LickingHeights/HangMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="68" column="56" lean-forward="true" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+            <state relative-caret-position="156">
+              <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#guessbreakdown#0;class#HangMan#0" />
                 <element signature="method#hangman#0;class#HangMan#0" />
               </folding>
             </state>
@@ -48,18 +49,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="694" />
+    <option name="y" value="56" />
+    <option name="width" value="662" />
+    <option name="height" value="652" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,7 +77,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -132,8 +133,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -166,12 +166,31 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/LickingHeights/HangMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="56" lean-forward="true" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#guessbreakdown#0;class#HangMan#0" />
+            <element signature="method#hangman#0;class#HangMan#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/LickingHeights/HangMan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#guessbreakdown#0;class#HangMan#0" />
             <element signature="method#hangman#0;class#HangMan#0" />
           </folding>
         </state>
@@ -182,6 +201,8 @@
         <state relative-caret-position="3689">
           <caret line="217" column="23" lean-forward="true" selection-start-line="217" selection-start-column="23" selection-end-line="217" selection-end-column="23" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#guessbreakdown#0;class#HangMan#0" />
             <element signature="method#hangman#0;class#HangMan#0" />
           </folding>
         </state>
@@ -192,6 +213,8 @@
         <state relative-caret-position="612">
           <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#guessbreakdown#0;class#HangMan#0" />
             <element signature="method#hangman#0;class#HangMan#0" />
           </folding>
         </state>
@@ -202,6 +225,8 @@
         <state relative-caret-position="884">
           <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#guessbreakdown#0;class#HangMan#0" />
             <element signature="method#hangman#0;class#HangMan#0" />
           </folding>
         </state>
@@ -212,6 +237,8 @@
         <state relative-caret-position="527">
           <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#guessbreakdown#0;class#HangMan#0" />
             <element signature="method#hangman#0;class#HangMan#0" />
           </folding>
         </state>
@@ -346,9 +373,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/LickingHeights/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/LickingHeights/HangMan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="68" column="56" lean-forward="true" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+        <state relative-caret-position="156">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#guessbreakdown#0;class#HangMan#0" />
             <element signature="method#hangman#0;class#HangMan#0" />
           </folding>
         </state>

@@ -1,5 +1,7 @@
 package com.LickingHeights;
 
+import com.sun.xml.internal.fastinfoset.util.StringArray;
+
 import java.util.Scanner;
 
 
@@ -20,6 +22,7 @@ public class HangMan {
         String phrase;
         int attempt;
         String guessphrase;
+        String[] backtoword;
 
         keyboard = new Scanner(System.in);
 
@@ -34,18 +37,18 @@ public class HangMan {
             System.out.println(hangman(0));
             mistakes=0;
             maxmistakes=10;
-           System.out.println( wordtolines(secretword));
+
            guessphrase = wordtolines(secretword);
+            System.out.println(guessphrase);
 
             //System.out.println(secretword);
-
 
 
             do {
                 System.out.println("Player 2 start guessing");
                 letter = keyboard.nextLine();
 
-
+                secretword = uncoverletter(backtoword);
 
                 if (secretword.contains(letter)) {
                     System.out.println("getting closer");
@@ -199,15 +202,12 @@ public class HangMan {
         }
         return display;
     }
-  /*  public static String uncoverletter(String letter, String secretword, String phrase){
-        for (int i=0; i<phrase.length();i++){
-
-
-
-
+    public static String[] uncoverletter(String[] array){
+        for (int i=0; i<array.length;i++){
+            System.out.println(array[i] + " ");
         }
-        return uncoverletter;
-    }*/
+        return array;
+    }
     public static String wordtolines(String secretword){
         String display = "";
         for(String tempWord: guessbreakdown(secretword)){
